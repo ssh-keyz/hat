@@ -6,3 +6,11 @@ _  /_/ // /_/ /  / / /  ,<  /  __/  /_/ /     / /___  / /_/ /_  /
                                  /____/                              
 
 using donkey v4.3.22 ...
+Starting Donkey Server...... you can now go to donkey-5003c3.local:8887 to drive your car.
+Created a new datastore at /home/pi/mycar/data/tub_18_22-12-02
+You can now go to <your hostname.local>:8887 to drive your car.
+You can now move your controller to drive your car.
+New client connected
+New client connected
+New client connected
+New client connected
