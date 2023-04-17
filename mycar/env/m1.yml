@@ -1,0 +1,54 @@
+name: donkey-metal
+
+channels:
+  - apple
+  - conda-forge
+  - defaults
+  - pytorch
+
+dependencies:
+  - python=3.8  ## specify desired version
+  - pip
+  - tensorflow-deps
+  - h5py
+  - pillow
+  - opencv
+  - matplotlib
+  - tornado
+  - docopt
+  - pandas
+  - pylint
+  - pytest
+  - pytest-cov
+  - codecov
+  - pip
+  - imgaug
+  - progress
+  - moviepy
+  - paho-mqtt
+  - PrettyTable
+  - pyfiglet
+  - mypy
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-lightning
+  - numpy
+  - psutil
+  # - kivy
+  - plotly
+
+  ## uncomment for use with Jupyter
+  ## - ipykernel
+
+  ## PyPI packages
+  - pip:
+    - tensorflow-macos
+    # - tensorflow-macos==2.2.0
+    - tensorflow-metal  ## optional, but recommended
+    # - tf-keras-vis
+    # - git+https://github.com/autorope/keras-vis.git
+    - keras-vis
+    - simple-pid
+    - opencv-python-headless
+    - kivy==2.1.0
